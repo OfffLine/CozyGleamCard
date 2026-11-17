@@ -49,8 +49,6 @@ h1 > span { display: block; font-size: .54em; font-style: italic; letter-spacing
 .hero-summary li::before { content: ""; position: absolute; width: 4px; height: 4px; background: var(--gold); top: 10px; left: 0; transform: rotate(45deg); }
 .hero-summary > a { font-size: 13px; display: inline-block; padding-block: 8px; }
 .hero-summary > a span { margin-left: 20px; }
-.review-notice { margin: 24px 0 0; display: flex; align-items: baseline; gap: 14px; padding: 13px 18px; border: 1px solid #d5c6a9; color: #66542e; background: #f2e9d7; font-size: 12px; line-height: 1.7; }
-.review-notice strong { flex-shrink: 0; }
 .document-layout { display: grid; grid-template-columns: 242px minmax(0, 1fr); gap: 64px; padding: 58px 0 72px; }
 .contents { align-self: start; position: sticky; top: 24px; max-height: calc(100dvh - 48px); overflow-y: auto; font-size: 13px; padding-right: 16px; }
 .contents summary { list-style: none; cursor: pointer; text-transform: uppercase; font-size: 11px; letter-spacing: .15em; font-weight: 650; padding: 12px 0; border-bottom: 1px solid var(--line); }
@@ -134,8 +132,6 @@ h1 > span { display: block; font-size: .54em; font-style: italic; letter-spacing
   .hero-summary .eyebrow { padding-top: 3px; }
   .hero-summary ul { margin-bottom: 8px; }
   .hero-summary li { margin-top: 10px; font-size: 13px; }
-  .review-notice { display: block; padding: 12px 14px; margin-top: 20px; }
-  .review-notice strong { display: block; margin-bottom: 3px; }
   .document-layout { grid-template-columns: 1fr; gap: 35px; padding-top: 24px; padding-bottom: 40px; }
   .contents { position: static; max-height: none; padding: 0; border-bottom: 1px solid var(--line); }
   .contents ol { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); column-gap: 16px; padding-block: 8px 14px; }
@@ -175,6 +171,5 @@ h1 > span { display: block; font-size: .54em; font-style: italic; letter-spacing
   .document-layout { display: block; padding: 25px 0; }
   h2, h3, .section-number { break-after: avoid; }
   p, li, dd { orphans: 3; widows: 3; }
-  .review-notice { background: white; }
   .policy-body .contact-section { padding: 25px 0; }
 }
